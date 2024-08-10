@@ -1,0 +1,1 @@
+ren "network"??"_0.txt" ""network"??".txt"

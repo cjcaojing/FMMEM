@@ -1,0 +1,8 @@
+使用rand_network生成GN测试网络
+该函数为MATLAB编写，输入参数zout，输出得到GN网络的邻接矩阵adj
+格式：
+ zout=1;    % zout取值为0,1,2,3,4,5,6,7,8,9,10
+ % 构造网络邻接矩阵
+ adj_matrix = rand_network(zout);	
+	
+参数zout取值依次更换为0,1,2,3,4,5,6,7,8,9,10，生成的网络结构逐渐模糊

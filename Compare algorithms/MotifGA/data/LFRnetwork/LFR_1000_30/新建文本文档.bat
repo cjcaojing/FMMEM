@@ -1,0 +1,1 @@
+ren *.dat *.txt
